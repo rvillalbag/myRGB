@@ -56,7 +56,7 @@ The running stage is a one second loop where in each loop a fresh copy of the im
 The image data to be sent is 640 lines of 640 pixels of RGB data, so 640 x 640 x 3 = 1,228,800 raw bytes.  And in my case, based on the physical installation of the pump required a 90 degree rotation for the image to appear vertical.<br>
 
 Example image being rendered and sent to the LCD display:<br>
-![Example Image](https://raw.githubusercontent.com/2ndage/myRGB/refs/heads/main/Kraken%20LCD.bmp)
+![Example Image](https://raw.githubusercontent.com/2ndage/myRGB/refs/heads/main/NZXT%20Kraken%20LCD.bmp)
 
 ## Image Updating
 > TX(01): 36 01 00 01 09<br>
