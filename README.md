@@ -12,5 +12,3 @@ Each component with RGB in my system is listed below:<br>
 4. Cooler: Kraken Elite 360<br>
 
 A separate md file was created to explain the communications used to control the RGB for each component.<br>
-
-** Code coming soon, documenting first.
