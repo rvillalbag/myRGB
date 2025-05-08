@@ -1,4 +1,4 @@
-# Gigabyte RTX 5070 Ti
+# Gigabyte GeForce RTX 5070 Ti Gaming OC 16G
 VID: 0x10DE, PID: 0x2C05
 
 ** Thank you to [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) for providing clues to this AND to [NvAPISpy](https://gitlab.com/OpenRGBDevelopers/Tools/NvAPISpy) to providing the means to reverse engineer what Gigabyte Control Center (GCC) was doing.<br>
