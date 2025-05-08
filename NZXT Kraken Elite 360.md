@@ -1,4 +1,4 @@
-# Kraken Elite 360
+# NZXT Kraken Elite 360
 VID: 0x1E71, PID: 0x300C
 
 ** Thank you to Wireshark and USBPcap for facilitating the means for doing the reverse engineering.
