@@ -6,8 +6,8 @@ The code was written in C# NET 9.0 and runs on Ubuntu 24.04 as a background serv
 
 # Components
 Each component with RGB in my system is listed below:<br>
-1. Motherboard: Gigabyte Aorus Z790 Elite X WiFi 7<br>
-2. Memory: Corsair Dominator Platinum<br>
+1. Motherboard: [Gigabyte Aorus Z790 Elite X WiFi 7](https://github.com/2ndage/myRGB/blob/main/Gigabyte%20Aorus%20Z790%20Elite%20X%20WiFi%207.md)<br>
+2. Memory: [Corsair Dominator Platinum](https://github.com/2ndage/myRGB/blob/main/Corsair%20Dominator%20Platinum.md)<br>
 3. Graphics Card: [Gigabyte RTX 5070 Ti](https://github.com/2ndage/myRGB/blob/main/Gigabyte%20RTX%205070%20Ti.md)<br>
 4. Cooler: [Kraken Elite 360](https://github.com/2ndage/myRGB/blob/main/Kraken%20Elite%20360.md)<br>
 
