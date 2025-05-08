@@ -5,9 +5,11 @@ VID: 0x8086, PID: 0x7A23<br>
 
 Used SMBUS communication to control the RGB.<br>
 
-Scanned the SMBUS for addresses from 0x18 to 0x1F and 0x58 to 0x5F to locate the memory modules by doing a test IOCTL write to the I2C address with Command=0 and Size=0.<br>
+Scanned the SMBUS I801 adapter for addresses from 0x18 to 0x1F and 0x58 to 0x5F to locate the memory modules by doing a test IOCTL write to the I2C address with Command=0 and Size=0.<br>
 
 Of the addresses that responded, proceeded to perform a byte read on command 0x43 and if the response was 0x1A or 0x1B proceeded to perform a byte read on command 0x44 and if the response was 0x04 determined the correct memory module was found.<br>
+
+Of the verified addresses: 0x19 and 0x1b, proceeded to send block writes to set the RGB.
 
 Created a 38 byte array (12 LEDs * 3 RGB + 2 overhead).<br>
 - Byte 0: Set to 12 (number of LEDs)
