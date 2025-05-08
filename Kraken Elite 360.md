@@ -50,7 +50,7 @@ No idea what all these messages do but they were consistently sent on each start
 > RX(81): ff 01<br>
 
 # Running
-The running stage is a one second loop where in each loop a fresh copy of the image was transmitted to the LCD display and one or more status (0x7502) messages were received.  As well Pump and/or Fan duty values are changed based on a select source (CPU, GPU or Liquid) temperature and a curve defined in the XML configuration files.<br>
+The running stage is a one second loop where in each loop a fresh copy of the image was transmitted to the LCD display and one or more status (0x7502) messages were received.  As well Pump and/or Fan duty values are changed based on a source (CPU, GPU or Liquid) temperature and a curve defined in the XML configuration files.<br>
 
 ## Image
 The image data to be sent is 640 lines of 640 pixels of RGB data, so 640 x 640 x 3 = 1,228,800 raw bytes.  And in my case, based on the physical installation of the pump required a 90 degree rotation for the image to appear vertical.<br>
